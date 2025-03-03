@@ -63,6 +63,8 @@ import sys
 sys.path.append()	
 for path in sys.path:
 	print(path)
+    
+sys.path.append(os.pardir) # 添加父目录下的文件
 `````
 
 ### pathlib库
